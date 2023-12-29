@@ -230,8 +230,6 @@ try:
 
 
     new_guest = Reservation(guest=user_name, check_in_date=user_start_date, exit_date=user_end_date, number=user_number)
-    for i in reservation:
-        print(i)
 
 except:
     print('\nПовторите попытку')
